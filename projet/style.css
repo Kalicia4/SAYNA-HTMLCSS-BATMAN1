@@ -4,6 +4,7 @@ body{
     background-color: #000;
     overflow-x: hidden;
 }
+
 h1{
     font-size: 36px;
 }
@@ -47,15 +48,19 @@ header{
     justify-content: space-between;
     border-left: #c4c4c444 3px solid;
     border-right: #c4c4c444 3px solid;
-    border-bottom: #c4c4c444 3px solid;
+    border-bottom: #c4c4c444 3px solid; 
 }
-.home{
-    background-color: transparent;
-    border: none;
-    border-bottom: solid 1px #FFFF;
-    /* font-size: 20px; */
-    font-style: medium;
+.home a{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
 }
+.active,.home a:hover{
+    border-bottom: 1px solid white;
+}
+
 .intro{
     /* background-color: blanchedalmond;  */
     text-align: center;
@@ -89,7 +94,6 @@ p{
     left: 86%;
     justify-content: center;
     align-items: center;
-
 }
 .i{
     display: flex;
